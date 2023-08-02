@@ -1,0 +1,393 @@
+body {
+    width: 1600px;
+    height: 600px;
+    margin-left: 150px;
+}
+
+header {
+    width: 1600px;
+    height: 40px;    
+}
+
+header .container {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 215px;
+    font-size: 15px;
+}
+
+.block-business {
+    background-color: #2F303A;
+    width: 1600px;
+    height: 600px;
+    top: 80px;
+
+
+}
+
+.block-business .button {
+    width: 216px;
+    height: 50px;
+    top: 430px;
+    left: 692px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px #00000026;
+    background-color: #2196F3;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.block-business .button:hover {
+    background-color: #FFFFFF;
+    color: #2196F3;
+}
+
+.nav-list {
+    color: black;
+    display: flex;
+    gap: 50px;
+}
+
+.nav-list a:hover {
+    color: #2196F3;
+}
+
+.contacts-list {
+    display: flex;
+    gap: 50px;
+}
+
+.contacts-list a {
+    color: gray;
+}
+
+.contacts-list a:hover {
+    color: #2196F3;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+.web-color {
+    color: #2196F3;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.studio-color {
+    color: #000000;
+    font-family: Oleo Script;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    font-family: Roboto;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    padding: 200px 452px;
+    text-align: center;
+}
+
+.ul-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 94px 215px 118px;
+    gap: 50px;
+
+    
+}
+
+.ul-main h2 {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #212121;
+}
+
+.ul-main h2 + p {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color:  #757575;
+    width: 270px;
+    height: 74px;
+
+}
+
+.ul-main .ul-details {
+    width: 270px;
+    height: 98px;
+    top: 774px;
+    left: 215px;
+
+}
+
+.ul-main .ul-punktuality {
+    width: 270px;
+    height: 74px;
+    top: 774px;
+    left: 515px;
+
+}
+
+.ul-main .ul-plan {
+    width: 270px;
+    height: 74px;
+    top: 774px;
+    left: 815px;
+
+}
+
+.ul-main .ul-modernity {
+    width: 270px;
+    height: 98px;
+    top: 774px;
+    left: 1115px;
+
+}
+
+.bild {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 50px 215px;
+    
+}
+
+.work h3 {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    text-align: center;
+
+}
+
+
+.block-teams {
+    width: 1600px;
+    height: 648px;
+    top: 1446px;
+    background-color: #F5F4FA;
+}
+
+.block-teams h4 {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.teams {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 215px;    
+}
+
+.teams img {
+    width: 270px;
+    height: 260px;
+    top: 1632px;
+    left: 215px; 
+}
+
+.designer {
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px #00000033;font-family: Roboto;
+}
+
+.designer h5 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.designer p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #757575;
+}
+
+.developer {
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px #00000033;
+}
+
+.developer h5 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #212121;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.developer p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #757575;
+}
+
+.marketing {
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px #00000033;
+}
+
+.marketing h5 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #212121;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.marketing p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #757575;
+}
+
+.ui {
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px #00000033;
+}
+
+.ui h5 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #212121;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.ui p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #757575;
+}
+
+.block-footer {
+    width: 1600px;
+    height: 252px;
+    top: 2094px;
+    background-color: #2F303A;
+}
+
+.studio-color_2 {
+    color: #FFFFFF;
+    font-family: Oleo Script;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.address a[target^="_blank"] {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.address a[target^="_blank"]:hover {
+    color: #2196F3;
+}
+
+.address a {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #FFFFFF99;
+
+}
+
+.address a:hover {
+    color: #F5F4FA;
+}
+
+.address {
+    padding-left: 215px;
+}
+
+.address li {
+    margin-bottom: 9px;
+}
+
+.webstudio {
+    padding: 30px 215px;
+}
